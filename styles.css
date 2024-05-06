@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,8 @@
 body {
   min-width: 100vw;
   min-height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
 
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -36,6 +40,8 @@ main h1 {
 }
 
 main button {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
   border: solid 3px #000000;
   padding: 1rem;
   border-radius: 0.5rem;
