@@ -18,3 +18,6 @@ const setBackgroundColor = function () {
 
 //* EVENTS
 changeColorBtn.addEventListener("click", setBackgroundColor);
+
+//* MAIN
+setBackgroundColor();
